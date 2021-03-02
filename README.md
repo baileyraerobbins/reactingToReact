@@ -19,8 +19,9 @@ README.md
 
 Before starting the following tasks, make sure that the Chrome Developer Tools are open in your "localhost:3000" tab, and that you also have the React Developer Tools installed. You should be checking these as much as possible to not only troubleshoot these tasks, but to confirm your understanding of what you are doing. Note the React Developer tools will not activate unless they detect valid rendering React components. So if your terminal isn't running your React app with no errors, then they won't appear!
 
-##Simple Tasks a la React
-###Each time you save your files while completing these tasks, check the terminal and browser for compilation errors, and pay attention to what they are telling you. For example, if something is "undefined", why does React think that? What should be defined, and where?
+## Simple Tasks a la React
+### Each time you save your files while completing these tasks, check the terminal and browser for compilation errors, and pay attention to what they are telling you. For example, if something is "undefined", why does React think that? What should be defined, and where?
+
 React is component-based, and each component should be separated into its own file. Start this exercise by creating an "App.jsx" component in your src/components directory. Then, create a functional component named "App", and define a simple JSX element inside of that component (Hint: start with something obvious, like a <h1> element). Then, return that element from the App component.
 
 Try to render your new App component from index.js. What happens in your terminal and browser? Fix any issues that arise.
